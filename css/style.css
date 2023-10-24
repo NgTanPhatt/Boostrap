@@ -14,29 +14,96 @@ a{
     text-decoration: none;
     
 }
+
 li{
     list-style: none;
 }
-
+/* nút button nha bạn */
+.btn__web2{
+    background-color: #dc4f72;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 52px;
+    padding: 0 30px;  
+    font-weight: 600;
+    border: 1px solid #dc4f72
+}
+.btn__web2:hover{
+    color:white ;
+    
+}
+.btn__web1{
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+ 
+    border: 1px solid #dc4f72;
+    font-weight: 600;
+    color: #dc4f72;
+    background: transparent;
+    transition: all .5s;
+}
+.btn__web1:hover{
+    color: white;
+    background: #dc4f72;
+}
 @media (min-width:200px){
     .container{
         width: 90%;
         margin: 0 auto;
     }
+    /* button */
+    .btn__web2,
+    .btn__web1{
+        line-height: 44px;
+        padding: 0 20px;
+    }
+    /*demo  */
+    .demo__box h2{
+        font-size: 30px;
+    }  
+    /* footer */
     .footer__bottom{
         display: block;
       text-align: center;
     }
+    .footer__letter{
+        max-width: 100%;
+    }
+  
 }
-@media (min-width:1200px) {
+@media (min-width:767px) {
+    .demo__box h2{
+        font-size: 45px;
+    }
+    /* button */
+    .btn__web2,
+    .btn__web1{
+        line-height: 52px;
+        padding: 0 30px;  
+    }
+}
+@media (min-width:1260px) {
     .container{
-    width: 60%;
-    margin: 0 auto;
-}
-.footer__bottom{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer__bottom{
     display: flex;
     justify-content: space-between;
   
     
+}
+}
+@media (min-width:1500px) {
+    .container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.footer__letter{
+    max-width: 530px;
 }
 }

@@ -1,3 +1,9 @@
+.demo__box{
+   max-width: 700px;
+    margin: 0 auto;
+}
+
+
 /* footer */
 .footer_bg{
     background-color: #f7f9fc;
