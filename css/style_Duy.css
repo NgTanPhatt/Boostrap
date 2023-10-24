@@ -85,29 +85,9 @@ color: #656f7b;
 .columns a:hover{
     color: #dc4f72;
 }
-@media (min-width:1200px) {
-    .container{
-    width: 60%;
-    margin: 0 auto;
-}
-.footer__bottom{
-    display: flex;
-    justify-content: space-between;
-  
-    
-}
+
 
 .footer__letter{
     max-width: 530px;
 }
-}
-@media (min-width:200px){
-    .container{
-        width: 90%;
-        margin: 0 auto;
-    }
-    .footer__bottom{
-        display: block;
-      text-align: center;
-    }
-}
+
