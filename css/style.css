@@ -1,5 +1,7 @@
+@import url('thuvien.css');
 @import url('style_Duy.css');
 @import url('style_Phat.css');
+
 
 *{
     margin: 0;
@@ -49,6 +51,8 @@ li{
     color: white;
     background: #dc4f72;
 }
+
+
 @media (min-width:200px){
     .container{
         width: 90%;
@@ -60,6 +64,28 @@ li{
         line-height: 44px;
         padding: 0 20px;
     }
+
+    /*client  */
+    .client__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+    }
+    /* about */
+  
+    /* number */
+    .number_item{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .number_item h3{
+    font-size: 40px;
+}
+/*  */
+
     /*demo  */
     .demo__box h2{
         font-size: 30px;
@@ -74,8 +100,23 @@ li{
     }
   
 }
-@media (min-width:767px) {
-    .demo__box h2{
+@media(min-width:600px){
+    /* container */
+    .container{
+        width: 100%;
+       
+    }
+    /* client */
+    .client__item{
+        display: flex;
+        flex-direction: row;
+        align-items: normal;
+        text-align: unset;
+        justify-content: unset;
+
+    } 
+    /* demo */
+       .demo__box h2{
         font-size: 45px;
     }
     /* button */
@@ -84,17 +125,53 @@ li{
         line-height: 52px;
         padding: 0 30px;  
     }
+    /* number */
+    .number_item{
+        width: 45%;
+    }
+.number_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+}
+@media (min-width:800px){
+    .project .nav-tabs{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        }
+}
+@media (min-width:1100px){
+  
+    .number_box{
+    
+    flex-wrap: nowrap;
+    
+    
+    } 
+    .number .number_box .number_item{
+        width: 33%;
+    }
 }
 @media (min-width:1260px) {
     .container{
         width: 90%;
         margin: 0 auto;
     }
+    /* footer */
     .footer__bottom{
     display: flex;
     justify-content: space-between;
   
     
+}
+/* number */
+.number_item h3{
+    font-size: 60px;
 }
 }
 @media (min-width:1500px) {
