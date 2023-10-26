@@ -33,9 +33,10 @@ width: 100%;
 #myTabContent{
 }
 .project{
-    padding: 30px 160px;
+   width: 100%;
 
 }
+
 #myTab .nav-item{
     width: 33.33%;
     position: relative;

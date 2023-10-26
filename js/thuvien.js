@@ -66,7 +66,7 @@
                 $respTabs.find('.resp-tab-content.' + options.tabidentify).before("<h2 class='resp-accordion " + options.tabidentify + "' role='tab'><span class='resp-arrow'></span></h2>");
 
                 $respTabs.find('.resp-tab-content.' + options.tabidentify).prev("h2").css({
-                    'background-color': options.inactive_bg,
+                 
                     'border-color': options.active_border_color
                 });
 
@@ -89,7 +89,7 @@
                     $tabItem.attr('aria-controls', options.tabidentify + '_tab_item-' + (count));
                     $tabItem.attr('role', 'tab');
                     $tabItem.css({
-                        'background-color': options.inactive_bg,
+                        
                         'border-color': 'none'
                     });
 
@@ -152,14 +152,15 @@
                                 $(this).addClass('resp-accordion-closed');
                             });
                             $currentTab.removeClass('resp-tab-active').css({
-                                'background-color': options.inactive_bg,
+                              
                                 'border-color': 'none'
                             });
                             return false;
                         }
                         if (!$currentTab.hasClass('resp-tab-active') && $currentTab.hasClass('resp-accordion')) {
                             $respTabs.find('.resp-tab-active.' + options.tabidentify).removeClass('resp-tab-active').css({
-                                'background-color': options.inactive_bg,
+                               
+
                                 'border-color': 'none'
                             });
                             $respTabs.find('.resp-tab-content-active.' + options.tabidentify).slideUp().removeClass('resp-tab-content-active resp-accordion-closed');
@@ -172,7 +173,7 @@
                         } else {
                             console.log('here');
                             $respTabs.find('.resp-tab-active.' + options.tabidentify).removeClass('resp-tab-active').css({
-                                'background-color': options.inactive_bg,
+                                
                                 'border-color': 'none'
                             });
 
