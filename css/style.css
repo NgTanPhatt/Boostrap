@@ -42,6 +42,7 @@ li{
     display: inline-block;
  
     border: 1px solid #dc4f72;
+    border-radius: 5px;
     font-weight: 600;
     color: #dc4f72;
     background: transparent;
