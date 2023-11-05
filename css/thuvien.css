@@ -54,7 +54,7 @@ bottom: 0;
 }
 .resp-tabs-container {
     padding: 0px;
-    background-color: #fff;
+    /* background-color: #fff; */
     clear: left;
     
 }
@@ -92,7 +92,7 @@ h2.resp-accordion {
 }
 .resp-tab-active {
     border-bottom: none;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 
 .resp-content-active, .resp-accordion-active {
