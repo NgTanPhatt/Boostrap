@@ -190,6 +190,7 @@ a.search-search span.fa {
     margin-left: -15px;
 }
 
+
 .carousel__content .content-left h3{
     font-size: 60px;
     line-height: 55px;
@@ -208,4 +209,62 @@ a.search-search span.fa {
 
 .clear{
     clear: both;
+}
+
+/* Service */
+.sub-title {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #dc4f72;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.header-section h3 {
+    color: #2C3038;
+    font-size: 46px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.header-section p {
+    color: #5a5a5a;
+    font-size: 16px;
+    line-height: 22.5px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.w3l-index2 .s-block {
+    border-radius: 6px;
+    transition: 0.3s ease-in;
+    background: #F7F9FC;
+    padding: 3rem 2rem;
+    border: 1px solid #F7F9FC;
+    transform: translateY(0);
+}
+
+.w3l-index2 .s-block:hover {
+    transition: 0.3s ease-in;
+    background: #fff;
+    border: 1px solid #f8f9fa;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+    transform: translateY(-0.5rem);
+}
+
+.w3l-index2 .s-block h3 {
+    color: #2C3038;
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: 700;
+}
+
+.w3l-index2 .s-block p {
+    color: #5a5a5a;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 24.5px;
 }
