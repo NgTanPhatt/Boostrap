@@ -1,3 +1,8 @@
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+
 header .main-header{
     background-color: #fff;
     padding: 0px;
@@ -153,4 +158,54 @@ a.search-search span.fa {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+/* Carousel */
+.carousel{
+    width: 100%;
+    margin-left: 150px;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.carousel__content {
+    background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.92)), url(https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/banner.jpg);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.carousel__content .content-left h3{
+    font-size: 60px;
+    line-height: 55px;
+    color: #2C3038;
+    font-weight: 500;
+}
+
+.carousel__content .content-left p{
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    max-width: 450px;
+    color: #5a5a5a;
+}
+
+.clear{
+    clear: both;
 }
