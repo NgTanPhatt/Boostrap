@@ -7,6 +7,9 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, .4);
 }
 /* number */
+.dark .number_item{
+    background-color: black;
+}
 .number_item{
    
     box-shadow: 0 0 10px rgba(0, 0, 0, .4);
@@ -31,6 +34,9 @@ width: 100%;
 
 }
 #myTabContent{
+}
+.dark .project {
+   color: white;
 }
 .project{
    width: 100%;
@@ -87,17 +93,34 @@ position: relative;
     z-index: 1;
 }
 /* demo */
+.dark .demo{
+    color: white;
+}
 .demo{
-    background-color: white;
+   
 }
 .demo__box{
    max-width: 700px;
     margin: 0 auto;
     
 }
+.dark .client{
 
+}
 
 /* footer */
+.dark .resp-tab-item,
+.dark .resp-tab-item.hor_1{
+    background-color: black;
+}
+
+.dark .footer_bg{
+    background-color: #191c1d;
+    color: white;
+}
+.dark .resp-tab-content{
+    background-color: black;
+}
 .footer_bg{
     background-color: #f7f9fc;
     
@@ -126,7 +149,9 @@ margin-top: 8px;
 .footer_top .footer__box .footer__item a:hover{
     color: #dc4f72;
 }
-
+.dark .footer__news{
+    background: black;
+}
 .footer__news{
     background:#fff;
    padding: 2em;
@@ -137,6 +162,9 @@ margin-top: 8px;
 }
 .footer__news>p{
 font-size: 18px;
+}
+.dark .footer__news .footer__form .email{
+    background-color: #191c1d;
 }
 .footer__news .footer__form .email{
 width: 80%;
@@ -162,6 +190,9 @@ outline: none;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.dark .footer_bg .social li a{
+    color: white;
 }
 .footer_bg .social li a{
     margin-right: 20px;
@@ -190,6 +221,10 @@ color: #656f7b;
    
    
 }
+.dark .about{
+    background-color: #191c1d;
+    color: white;
+}
 .about .text_web{
     max-width: 500px;
 }
@@ -202,12 +237,28 @@ color: #656f7b;
     padding: 50px 0;
     background-attachment:fixed;
 }
+.dark .client{
+    background: linear-gradient(to right ,black, rgba(255,255,255,0.5)), url('../img/banner3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    color: white;
+}
+
+.dark .client__item{
+    background-color: #191c1d;
+    color: white;
+}
 .client__box{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     overflow: hidden;
+}
+.text_web h2{
+    font-size: 46px;
 }
 .text_web h4{
     font-size: 16px;
