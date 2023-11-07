@@ -119,14 +119,14 @@
 
                 //Active correct tab
                 $($respTabs.find('.resp-tab-item.' + options.tabidentify)[tabNum]).addClass('resp-tab-active').css({
-                    'background-color': options.activetab_bg,
+                    // 'background-color': options.activetab_bg,
                     'border-color': options.active_border_color
                 });
 
                 //keep closed if option = 'closed' or option is 'accordion' and the element is in accordion mode
                 if (options.closed !== true && !(options.closed === 'accordion' && !$respTabsList.is(':visible')) && !(options.closed === 'tabs' && $respTabsList.is(':visible'))) {
                     $($respTabs.find('.resp-accordion.' + options.tabidentify)[tabNum]).addClass('resp-tab-active').css({
-                        'background-color': options.activetab_bg + ' !important',
+                        // 'background-color': options.activetab_bg + ' !important',
                         'border-color': options.active_border_color,
                         'background': 'none'
                     });
@@ -165,7 +165,7 @@
                             });
                             $respTabs.find('.resp-tab-content-active.' + options.tabidentify).slideUp().removeClass('resp-tab-content-active resp-accordion-closed');
                             $respTabs.find("[aria-controls=" + $tabAria + "]").addClass('resp-tab-active').css({
-                                'background-color': options.activetab_bg,
+                                // 'background-color': options.activetab_bg,
                                 'border-color': options.active_border_color
                             });
 
@@ -180,7 +180,7 @@
                             $respTabs.find('.resp-tab-content-active.' + options.tabidentify).removeAttr('style').removeClass('resp-tab-content-active').removeClass('resp-accordion-closed');
 
                             $respTabs.find("[aria-controls=" + $tabAria + "]").addClass('resp-tab-active').css({
-                                'background-color': options.activetab_bg,
+                                // 'background-color': options.activetab_bg,
                                 'border-color': options.active_border_color
                             });
 
