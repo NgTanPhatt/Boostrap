@@ -75,7 +75,9 @@ nav ul li {
     transition: all 0.5s ease;
     position: relative;
 }
-
+#navbarInstruction .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+color: #dc4f72;
+}
 #navbarInstruction .nav-item::after{
     content:'';
     width: 0;
@@ -90,7 +92,7 @@ nav ul li {
 }
 
 #navbarInstruction .nav-item.active .nav-link{
-    color: #dc4f72;
+    
 }
 
 a.dropdown-item {
