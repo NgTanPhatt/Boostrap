@@ -78,6 +78,22 @@ nav ul li {
 #navbarInstruction .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
 color: #dc4f72;
 }
+.dark .header-section p,
+.dark .header-section h3{
+    color: white;
+}
+.dark .carousel__content .content-left p,
+.dark .carousel__content .content-left h3{
+    color: white;
+}
+.dark .carousel__content{
+    background: linear-gradient(to right ,black, rgba(255,255,255,0.5)), url('../img/banner3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    
+}
 #navbarInstruction .nav-item::after{
     content:'';
     width: 0;
@@ -375,7 +391,10 @@ a.search-search span.fa {
     line-height: 1;
     font-weight: 600;
 }
-
+.dark .QA .header-section p,
+.dark .QA .header-section h3{
+    color: white;
+}
 .QA .header-section p{
     color: #5a5a5a;
     font-size: 16px;
