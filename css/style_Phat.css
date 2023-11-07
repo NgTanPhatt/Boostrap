@@ -89,6 +89,10 @@ nav ul li {
     width: 50%;
 }
 
+#navbarInstruction .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color: #dc4f72;
+    }
+
 #navbarInstruction .nav-item.active .nav-link{
     color: #dc4f72;
 }
@@ -158,6 +162,30 @@ a.search-search span.fa {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.mode-container {
+    width: 24px;
+    height: 24px;
+    padding: 0px 0;
+}
+
+.mode-container i.fa-sun{
+    display: none;
+}
+
+.nav-fixed .fa-sun{
+    color: #5a5a5a;
+}
+
+.fa-sun {
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    height: 24px;
+    background: linear-gradient(180deg, currentColor 4px, transparent 0) no-repeat 5px -6px/2px 6px, linear-gradient(180deg, currentColor 4px, transparent 0) no-repeat 5px 14px/2px 6px, linear-gradient(180deg, currentColor 4px, transparent 0) no-repeat -8px 5px/6px 2px, linear-gradient(180deg, currentColor 4px, transparent 0) no-repeat 14px 5px/6px 2px;
+    border-radius: 100px;
+    box-shadow: inset 0 0 0 2px;
+    border: 6px solid transparent;
 }
 
 /* Carousel */
@@ -267,4 +295,198 @@ a.search-search span.fa {
     margin-top: 15px;
     font-size: 16px;
     line-height: 24.5px;
+}
+
+/* Information */
+.new-block {
+  
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)),
+    url(../img/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat,
+    no-repeat,
+    no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 480px;
+    display: grid;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.information .middle-section{
+    max-width: 550px;
+}
+
+.information .section-width h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+.information .link-list-menu p{
+    color: #eee;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.information .link-list-menu .btn__web3{
+    display: inline-block;
+    color: black;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+    font-weight: 600;
+    line-height: 52px;
+    font-size: 16px;
+    margin: 0;
+    padding: 0 30px;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+
+.information .link-list-menu .btn__web3:hover{
+    color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+
+/* Q&A */
+.QA .sub-title{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #dc4f72;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.QA .header-section h3{
+    color: #2C3038;
+    font-size: 46px;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.QA .header-section p{
+    color: #5a5a5a;
+    font-size: 16px;
+    line-height: 22.5px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+
+.w3l-faq-block .w3l-faq ul li i {
+    position: absolute;
+    transform: translate(-6px, 0);
+    margin-top: 16px;
+    right: 25px;
+    top: 16px;
+}
+
+.w3l-faq-block .w3l-faq ul li {
+    position: relative;
+    padding: 25px 50px 25px 20px;
+    border: 1px solid #eee;
+    margin: 0 0 15px 0;
+    border-radius: 6px;
+    background: #fff;
+}
+
+.w3l-faq-block .w3l-faq h2 {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: normal;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    color: #2C3038;
+}
+
+img.img-curve:hover {
+    transform: translateY(-0.5rem);
+    transition: 0.3s ease-in-out;
+}
+
+.w3l-faq-block .w3l-faq ul li input[type=checkbox]:checked ~ p {
+    margin-top: 0;
+    max-height: 0;
+    opacity: 0;
+    transform: translate(0, 50%);
+}
+
+.w3l-faq-block .w3l-faq p {
+    color: #5a5a5a;
+    font-size: 16px;
+    line-height: 24.5px;
+    position: relative;
+    overflow: hidden;
+    max-height: 800px;
+    opacity: 1;
+    transform: translate(0, 0);
+    margin-top: 14px;
+    z-index: 2;
+}
+
+.faq-page ul li i:after {
+    content: "";
+    position: absolute;
+    background-color: #2C3038;
+    width: 3px;
+    height: 9px;
+}
+
+.w3l-faq-block .w3l-faq ul li i:before, .w3l-faq-block .w3l-faq ul li i:after {
+    content: "";
+    position: absolute;
+    background-color: #2C3038;
+    width: 3px;
+    height: 9px;
+}
+
+.w3l-faq-block .w3l-faq ul {
+    list-style: none;
+    padding: 0;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.w3l-faq-block .w3l-faq ul li input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    -webkit-appearance: none;
+}
+
+.backToTop {
+    width: 50px;
+    height: 50px;
+    background: #f55f8d;
+    border-radius: 8px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    color: white;
+    transition: all .2s;
+    box-shadow: -4px 4px 24px -10px #f55f8d;
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
 }
